@@ -1,0 +1,59 @@
+# Major dependencies
+Django==3.2.9
+psycopg2==2.9.2
+celery==5.2.0
+redis==3.5.3
+ariadne==0.13.0
+requests==2.26.0
+django-celery-beat==2.2.1
+django-cacheops==6.0
+django-pickling==1.0
+pydantic==1.8.2
+dependency-injector==4.37.0
+
+# Minor depencies
+pyjwt==2.3.0
+PyYAML==6.0
+requests-cache==0.8.1
+django-environ==0.8.1
+django-cors-headers==3.10.0
+django-split-settings==1.1.0
+tenacity==8.0.1
+cachetools==4.2.4
+
+# Third-party service wrappers
+boto3==1.20.5
+dadata==0.3.0  # оставляем 0.3.0 т.к. для новых версий нужно править кэширование ответов
+rollbar==0.16.2
+logzio-python-handler==3.0.0
+
+# feed monitoring and processing
+defusedxml==0.7.1
+phonenumbers==8.12.37
+numpy==1.21.4
+shapely==1.8.0
+python-dateutil==2.8.2
+openpyxl==3.0.9
+
+# image processing
+pillow==8.4.0
+
+# text processing
+fuzzywuzzy==0.18.0
+python-Levenshtein==0.12.2
+
+# call tracking
+django-import-export==2.6.1
+
+# dev, test
+flower==1.0.0
+parameterized==0.8.1
+django-spaghetti-and-meatballs==0.4.2
+
+# news article management and processing
+django-ckeditor==6.1.0
+django-storages==1.12.3
+beautifulsoup4==4.10.0
+
+# prod
+gunicorn==20.1.0
